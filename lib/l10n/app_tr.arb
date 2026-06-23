@@ -1,0 +1,63 @@
+{
+  "@@locale": "tr",
+  "appTitle": "Vakti",
+  "appTagline": "Doğru bilgi, doğru vakitte.",
+
+  "tabFeed": "Akış",
+  "tabBrowse": "Gözat",
+  "tabFavorites": "Favoriler",
+  "tabSettings": "Ayarlar",
+
+  "pillarAll": "Tümü",
+  "pillarWellness": "Sağlıklı Yaşam",
+  "pillarCommunication": "İletişim",
+
+  "saveTip": "Kaydet",
+  "savedTip": "Kaydedildi",
+  "shareTip": "Paylaş",
+
+  "dailyTipLabel": "Günün bilgisi",
+
+  "browseTitle": "Gözat",
+  "browseAllInCategory": "Tüm bilgiler",
+
+  "favoritesTitle": "Favoriler",
+  "favoritesEmptyTitle": "Henüz bir şey kaydetmedin",
+  "favoritesEmptyBody": "Bir kartı burada tutmak için kalbe dokun.",
+
+  "settingsTitle": "Ayarlar",
+  "settingsLanguage": "Dil",
+  "settingsTheme": "Tema",
+  "settingsThemeLight": "Açık",
+  "settingsThemeDark": "Koyu",
+  "settingsThemeSystem": "Sistem",
+  "settingsNotifications": "Bildirimler",
+  "settingsDailyReminder": "Günlük hatırlatma",
+  "settingsReminderTime": "Hatırlatma saati",
+  "settingsWidget": "Ana ekran widget'ı",
+  "settingsLegal": "Bilgilendirme ve yasal",
+  "settingsAbout": "Hakkında",
+  "settingsRateApp": "Uygulamayı değerlendir",
+
+  "languageTr": "Türkçe",
+  "languageEn": "English",
+  "languageSystem": "Sistem",
+
+  "dailyReminderTitle": "Bugünün bilgisi hazır 🌅",
+  "dailyReminderBody": "Doğru vakitte küçük bir fikir seni bekliyor.",
+
+  "disclaimerTitle": "Bilmekte fayda var",
+  "disclaimerBody": "Vakti'deki içerikler yalnızca genel bilgilendirme amaçlıdır ve profesyonel tıbbi, psikolojik veya pedagojik tavsiye yerine geçmez. Sağlık veya çocuğunuzla ilgili önemli kararlarda lütfen uzmana danışın.",
+
+  "onboarding1Title": "Doğru bilgi, doğru vakitte",
+  "onboarding1Body": "Küçük, yararlı fikirler — her biri ne zaman ve neden olduğunu söyler.",
+  "onboarding2Title": "İki sakin sütun",
+  "onboarding2Body": "Günlük iyilik için Sağlıklı Yaşam, çocuğunuzla daha sakin anlar için İletişim.",
+  "onboarding3Title": "Sana göre ayarla",
+  "onboarding3Body": "Dilini seç ve okumaya başla.",
+  "onboardingNext": "İleri",
+  "onboardingStart": "Başla",
+  "onboardingAgree": "Anladım",
+
+  "tipsLoaded": "{count} bilgi yüklendi"
+}

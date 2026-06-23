@@ -1,0 +1,68 @@
+{
+  "@@locale": "en",
+  "appTitle": "Vakti",
+  "appTagline": "The right thing, at the right time.",
+
+  "tabFeed": "Feed",
+  "tabBrowse": "Browse",
+  "tabFavorites": "Favorites",
+  "tabSettings": "Settings",
+
+  "pillarAll": "All",
+  "pillarWellness": "Wellness",
+  "pillarCommunication": "Communication",
+
+  "saveTip": "Save",
+  "savedTip": "Saved",
+  "shareTip": "Share",
+
+  "dailyTipLabel": "Today's tip",
+
+  "browseTitle": "Browse",
+  "browseAllInCategory": "All tips",
+
+  "favoritesTitle": "Favorites",
+  "favoritesEmptyTitle": "Nothing saved yet",
+  "favoritesEmptyBody": "Tap the heart on a card to keep it here.",
+
+  "settingsTitle": "Settings",
+  "settingsLanguage": "Language",
+  "settingsTheme": "Theme",
+  "settingsThemeLight": "Light",
+  "settingsThemeDark": "Dark",
+  "settingsThemeSystem": "System",
+  "settingsNotifications": "Notifications",
+  "settingsDailyReminder": "Daily reminder",
+  "settingsReminderTime": "Reminder time",
+  "settingsWidget": "Home screen widget",
+  "settingsLegal": "Disclaimer & legal",
+  "settingsAbout": "About",
+  "settingsRateApp": "Rate the app",
+
+  "languageTr": "Türkçe",
+  "languageEn": "English",
+  "languageSystem": "System",
+
+  "dailyReminderTitle": "Today's tip is ready 🌅",
+  "dailyReminderBody": "A small, well-timed idea is waiting for you.",
+
+  "disclaimerTitle": "Good to know",
+  "disclaimerBody": "Content in Vakti is for general information only and is not a substitute for professional medical, psychological, or parenting advice. For important health or child-related decisions, please consult a qualified professional.",
+
+  "onboarding1Title": "The right thing, at the right time",
+  "onboarding1Body": "Small, useful ideas — each one tells you when and why.",
+  "onboarding2Title": "Two quiet columns",
+  "onboarding2Body": "Wellness for everyday wellbeing, Communication for calmer moments with your child.",
+  "onboarding3Title": "Make it yours",
+  "onboarding3Body": "Choose your language and start reading.",
+  "onboardingNext": "Next",
+  "onboardingStart": "Start",
+  "onboardingAgree": "I understand",
+
+  "tipsLoaded": "{count} tips loaded",
+  "@tipsLoaded": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  }
+}

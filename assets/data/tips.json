@@ -1,0 +1,2290 @@
+[
+  {
+    "id": "w_ginger_tea",
+    "pillar": "wellness",
+    "category": "digestion",
+    "emoji": "🫚",
+    "title": {
+      "tr": "Zencefil Çayı",
+      "en": "Ginger Tea"
+    },
+    "primary": {
+      "tr": "Ağır bir yemekten sonra",
+      "en": "After a heavy meal"
+    },
+    "secondary": {
+      "tr": "Şişkinlik hissini azaltır, sindirimi rahatlatır.",
+      "en": "Helps ease bloating and supports digestion."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_kefir",
+    "pillar": "wellness",
+    "category": "digestion",
+    "emoji": "🥛",
+    "title": {
+      "tr": "Kefir",
+      "en": "Kefir"
+    },
+    "primary": {
+      "tr": "İkindi vakti, ara öğün olarak",
+      "en": "Mid-afternoon, as a snack"
+    },
+    "secondary": {
+      "tr": "Tok tutar ve bağırsak florasını destekler.",
+      "en": "Keeps you full and supports gut flora."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_walk_after_meal",
+    "pillar": "wellness",
+    "category": "digestion",
+    "emoji": "🚶",
+    "title": {
+      "tr": "Kısa Yürüyüş",
+      "en": "A Short Walk"
+    },
+    "primary": {
+      "tr": "Yemekten 15 dakika sonra",
+      "en": "About 15 minutes after eating"
+    },
+    "secondary": {
+      "tr": "Kan şekerinin daha dengeli seyretmesine yardımcı olur.",
+      "en": "Helps keep blood sugar steadier after meals."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_fennel_tea",
+    "pillar": "wellness",
+    "category": "digestion",
+    "emoji": "🌿",
+    "title": {
+      "tr": "Rezene Çayı",
+      "en": "Fennel Tea"
+    },
+    "primary": {
+      "tr": "Şişkin hissettiğin yemek aralarında",
+      "en": "Between meals when you feel bloated"
+    },
+    "secondary": {
+      "tr": "Mideye yumuşak, yatıştırıcı bir mola sunar.",
+      "en": "Offers the stomach a gentle, settling pause."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_yogurt",
+    "pillar": "wellness",
+    "category": "digestion",
+    "emoji": "🥣",
+    "title": {
+      "tr": "Yoğurt",
+      "en": "Yogurt"
+    },
+    "primary": {
+      "tr": "Öğünlerin yanında",
+      "en": "Alongside your meals"
+    },
+    "secondary": {
+      "tr": "Bağırsak florasını destekleyen tanıdık bir seçim.",
+      "en": "A familiar choice that supports gut flora."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_chew_slowly",
+    "pillar": "wellness",
+    "category": "digestion",
+    "emoji": "🍽️",
+    "title": {
+      "tr": "Yavaş Çiğne",
+      "en": "Chew Slowly"
+    },
+    "primary": {
+      "tr": "Her öğünde, ilk birkaç lokmada",
+      "en": "At every meal, for the first few bites"
+    },
+    "secondary": {
+      "tr": "Sindirim ağızda başlar; tokluğu fark etmen kolaylaşır.",
+      "en": "Digestion starts in the mouth and fullness is easier to notice."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_warm_water_meal",
+    "pillar": "wellness",
+    "category": "digestion",
+    "emoji": "♨️",
+    "title": {
+      "tr": "Ilık Su",
+      "en": "Warm Water"
+    },
+    "primary": {
+      "tr": "Ağır bir öğünden sonra, küçük yudumlarla",
+      "en": "After a heavy meal, in small sips"
+    },
+    "secondary": {
+      "tr": "Tok mideye rahatlatıcı gelir.",
+      "en": "Feels soothing to a full stomach."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_mint",
+    "pillar": "wellness",
+    "category": "digestion",
+    "emoji": "🌱",
+    "title": {
+      "tr": "Nane",
+      "en": "Mint"
+    },
+    "primary": {
+      "tr": "Tok hissettiğin akşamlarda",
+      "en": "On evenings when you feel full"
+    },
+    "secondary": {
+      "tr": "Ferah bir his verir, mideyi yatıştırır.",
+      "en": "Brings a fresh feeling and settles the stomach."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_lemon_water",
+    "pillar": "wellness",
+    "category": "immunity",
+    "emoji": "🍋",
+    "title": {
+      "tr": "Ilık Limonlu Su",
+      "en": "Warm Lemon Water"
+    },
+    "primary": {
+      "tr": "Sabah, aç karnına",
+      "en": "In the morning, on an empty stomach"
+    },
+    "secondary": {
+      "tr": "Güne hafif bir başlangıç ve sıvı alımı için keyifli bir yol.",
+      "en": "A pleasant way to hydrate and ease into the day."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_garlic",
+    "pillar": "wellness",
+    "category": "immunity",
+    "emoji": "🧄",
+    "title": {
+      "tr": "Sarımsak",
+      "en": "Garlic"
+    },
+    "primary": {
+      "tr": "Kış yemeklerini pişirirken",
+      "en": "While cooking winter meals"
+    },
+    "secondary": {
+      "tr": "Yemeklere geleneksel bir derinlik katar.",
+      "en": "Adds a traditional depth to meals."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_honey",
+    "pillar": "wellness",
+    "category": "immunity",
+    "emoji": "🍯",
+    "title": {
+      "tr": "Bir Kaşık Bal",
+      "en": "A Spoon of Honey"
+    },
+    "primary": {
+      "tr": "Soğuk havalarda, sabahları",
+      "en": "On cold mornings"
+    },
+    "secondary": {
+      "tr": "Güne tatlı ve sıcak bir başlangıç.",
+      "en": "A warm, sweet way to start the day."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_orange",
+    "pillar": "wellness",
+    "category": "immunity",
+    "emoji": "🍊",
+    "title": {
+      "tr": "Portakal",
+      "en": "An Orange"
+    },
+    "primary": {
+      "tr": "Kahvaltıda ya da ara öğünde",
+      "en": "At breakfast or as a snack"
+    },
+    "secondary": {
+      "tr": "Mevsiminde taze ve canlandırıcı bir seçim.",
+      "en": "Fresh and refreshing when in season."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_soup",
+    "pillar": "wellness",
+    "category": "immunity",
+    "emoji": "🍲",
+    "title": {
+      "tr": "Sıcak Çorba",
+      "en": "Warm Soup"
+    },
+    "primary": {
+      "tr": "Üşüdüğün akşamlarda",
+      "en": "On chilly evenings"
+    },
+    "secondary": {
+      "tr": "Isıtır ve seni yavaşlamaya davet eder.",
+      "en": "Warms you and invites you to slow down."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_rest_when_tired",
+    "pillar": "wellness",
+    "category": "immunity",
+    "emoji": "😴",
+    "title": {
+      "tr": "Yorgunken Dinlen",
+      "en": "Rest When Tired"
+    },
+    "primary": {
+      "tr": "Vücudun sinyal verdiğinde",
+      "en": "When your body signals it"
+    },
+    "secondary": {
+      "tr": "Dinlenmek, kendine bakmanın en basit yoludur.",
+      "en": "Rest is the simplest form of self-care."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_ventilate",
+    "pillar": "wellness",
+    "category": "immunity",
+    "emoji": "🪟",
+    "title": {
+      "tr": "Odanı Havalandır",
+      "en": "Air Out the Room"
+    },
+    "primary": {
+      "tr": "Sabah ve akşam birkaç dakika",
+      "en": "A few minutes morning and evening"
+    },
+    "secondary": {
+      "tr": "Taze hava mekânı ferahlatır.",
+      "en": "Fresh air keeps the space pleasant."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_handwash",
+    "pillar": "wellness",
+    "category": "immunity",
+    "emoji": "🧼",
+    "title": {
+      "tr": "Elleri Yıka",
+      "en": "Wash Your Hands"
+    },
+    "primary": {
+      "tr": "Dışarıdan gelince ve yemekten önce",
+      "en": "After coming home and before eating"
+    },
+    "secondary": {
+      "tr": "Basit bir alışkanlık, günlük bir özen.",
+      "en": "A simple habit, an everyday kindness."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_chamomile",
+    "pillar": "wellness",
+    "category": "sleep",
+    "emoji": "🌼",
+    "title": {
+      "tr": "Papatya Çayı",
+      "en": "Chamomile Tea"
+    },
+    "primary": {
+      "tr": "Yatmadan ~1 saat önce",
+      "en": "About an hour before bed"
+    },
+    "secondary": {
+      "tr": "Sakinleşmeye ve güne yumuşak bir kapanış yapmaya yardımcı olur.",
+      "en": "Helps you wind down for a calmer end to the day."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_screen_off",
+    "pillar": "wellness",
+    "category": "sleep",
+    "emoji": "📵",
+    "title": {
+      "tr": "Ekranları Bırak",
+      "en": "Put Screens Away"
+    },
+    "primary": {
+      "tr": "Yatmadan 30–60 dakika önce",
+      "en": "30–60 minutes before bed"
+    },
+    "secondary": {
+      "tr": "Zihnin yavaşlamasına ve uykuya geçişin kolaylaşmasına yardımcı olur.",
+      "en": "Lets the mind slow down so falling asleep gets easier."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_dim_lights",
+    "pillar": "wellness",
+    "category": "sleep",
+    "emoji": "🕯️",
+    "title": {
+      "tr": "Işıkları Kıs",
+      "en": "Dim the Lights"
+    },
+    "primary": {
+      "tr": "Akşam, yatmadan önceki saatlerde",
+      "en": "In the hours before bed"
+    },
+    "secondary": {
+      "tr": "Vücuduna günün bittiğini hatırlatır.",
+      "en": "Reminds your body the day is ending."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_cool_room",
+    "pillar": "wellness",
+    "category": "sleep",
+    "emoji": "❄️",
+    "title": {
+      "tr": "Serin Oda",
+      "en": "A Cool Room"
+    },
+    "primary": {
+      "tr": "Uyumadan önce",
+      "en": "Before sleep"
+    },
+    "secondary": {
+      "tr": "Serin bir ortam dinlenmeyi kolaylaştırır.",
+      "en": "A cool room makes resting easier."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_no_late_coffee",
+    "pillar": "wellness",
+    "category": "sleep",
+    "emoji": "☕",
+    "title": {
+      "tr": "Geç Kahveyi Bırak",
+      "en": "Skip Late Coffee"
+    },
+    "primary": {
+      "tr": "Öğleden sonranın geç saatlerinden itibaren",
+      "en": "From late afternoon onward"
+    },
+    "secondary": {
+      "tr": "Akşam zihninin sakinleşmesine alan açar.",
+      "en": "Gives your evening mind room to settle."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_consistent_bedtime",
+    "pillar": "wellness",
+    "category": "sleep",
+    "emoji": "⏰",
+    "title": {
+      "tr": "Aynı Saatte Yat",
+      "en": "Same Bedtime"
+    },
+    "primary": {
+      "tr": "Hafta boyunca mümkün olduğunca",
+      "en": "As much as you can through the week"
+    },
+    "secondary": {
+      "tr": "Düzen, uykuya geçişi tahmin edilebilir kılar.",
+      "en": "Routine makes falling asleep more predictable."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_journal",
+    "pillar": "wellness",
+    "category": "sleep",
+    "emoji": "📓",
+    "title": {
+      "tr": "Birkaç Satır Yaz",
+      "en": "Write a Few Lines"
+    },
+    "primary": {
+      "tr": "Yatmadan önce, zihnin doluyken",
+      "en": "Before bed, when your mind is full"
+    },
+    "secondary": {
+      "tr": "Düşünceleri kâğıda bırakmak rahatlatır.",
+      "en": "Letting thoughts onto paper feels relieving."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_breathe",
+    "pillar": "wellness",
+    "category": "sleep",
+    "emoji": "🫁",
+    "title": {
+      "tr": "Yavaş Nefes",
+      "en": "Slow Breaths"
+    },
+    "primary": {
+      "tr": "Yatakta, gözlerin kapalıyken",
+      "en": "In bed, eyes closed"
+    },
+    "secondary": {
+      "tr": "Yavaş nefes bedeni dinlenmeye davet eder.",
+      "en": "Slow breathing invites the body to rest."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_sunlight",
+    "pillar": "wellness",
+    "category": "energy",
+    "emoji": "☀️",
+    "title": {
+      "tr": "Sabah Işığı",
+      "en": "Morning Light"
+    },
+    "primary": {
+      "tr": "Uyandıktan sonraki ilk saat içinde",
+      "en": "Within the first hour of waking"
+    },
+    "secondary": {
+      "tr": "Vücut saatini düzenler, gün içi uyanıklığı destekler.",
+      "en": "Helps set your body clock and supports daytime alertness."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_stretch",
+    "pillar": "wellness",
+    "category": "energy",
+    "emoji": "🤸",
+    "title": {
+      "tr": "Hafif Esneme",
+      "en": "A Light Stretch"
+    },
+    "primary": {
+      "tr": "Sabah yataktan kalkınca",
+      "en": "After getting up in the morning"
+    },
+    "secondary": {
+      "tr": "Bedeni nazikçe uyandırır.",
+      "en": "Gently wakes the body up."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_breakfast_protein",
+    "pillar": "wellness",
+    "category": "energy",
+    "emoji": "🍳",
+    "title": {
+      "tr": "Doyurucu Kahvaltı",
+      "en": "A Filling Breakfast"
+    },
+    "primary": {
+      "tr": "Güne başlarken",
+      "en": "As you start the day"
+    },
+    "secondary": {
+      "tr": "Dengeli bir başlangıç sabahını taşır.",
+      "en": "A balanced start carries your morning."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_short_break",
+    "pillar": "wellness",
+    "category": "energy",
+    "emoji": "⏸️",
+    "title": {
+      "tr": "Kısa Mola",
+      "en": "A Short Break"
+    },
+    "primary": {
+      "tr": "Uzun bir işin ortasında",
+      "en": "In the middle of a long task"
+    },
+    "secondary": {
+      "tr": "Kısa molalar dikkati tazeler.",
+      "en": "Short breaks refresh your focus."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_walk_outside",
+    "pillar": "wellness",
+    "category": "energy",
+    "emoji": "🚶",
+    "title": {
+      "tr": "Dışarıda Yürü",
+      "en": "Walk Outside"
+    },
+    "primary": {
+      "tr": "Öğle arasında",
+      "en": "During your lunch break"
+    },
+    "secondary": {
+      "tr": "Hareket ve hava enerjini canlandırır.",
+      "en": "Movement and air lift your energy."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_water_when_tired",
+    "pillar": "wellness",
+    "category": "energy",
+    "emoji": "💧",
+    "title": {
+      "tr": "Yorulunca Su",
+      "en": "Water When Tired"
+    },
+    "primary": {
+      "tr": "Halsiz hissettiğin anlarda",
+      "en": "When you feel sluggish"
+    },
+    "secondary": {
+      "tr": "Bazen yorgunluk susuzluğun habercisidir.",
+      "en": "Sometimes tiredness is really thirst."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_music",
+    "pillar": "wellness",
+    "category": "energy",
+    "emoji": "🎵",
+    "title": {
+      "tr": "Sevdiğin Şarkı",
+      "en": "A Song You Love"
+    },
+    "primary": {
+      "tr": "Enerjin düştüğünde",
+      "en": "When your energy dips"
+    },
+    "secondary": {
+      "tr": "Tanıdık bir melodi ruh hâlini yükseltir.",
+      "en": "A familiar tune lifts your mood."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_open_window",
+    "pillar": "wellness",
+    "category": "energy",
+    "emoji": "🌬️",
+    "title": {
+      "tr": "Pencereyi Aç",
+      "en": "Open the Window"
+    },
+    "primary": {
+      "tr": "Uzun süre içerideyken",
+      "en": "After a long time indoors"
+    },
+    "secondary": {
+      "tr": "Bir anlık temiz hava zihni açar.",
+      "en": "A moment of fresh air clears the mind."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_water_for_skin",
+    "pillar": "wellness",
+    "category": "skin",
+    "emoji": "💧",
+    "title": {
+      "tr": "Gün Boyu Su",
+      "en": "Water Through the Day"
+    },
+    "primary": {
+      "tr": "Düzenli aralıklarla",
+      "en": "At regular intervals"
+    },
+    "secondary": {
+      "tr": "Cilde iyi gelen en basit alışkanlık.",
+      "en": "The simplest habit your skin appreciates."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_sunscreen",
+    "pillar": "wellness",
+    "category": "skin",
+    "emoji": "🧴",
+    "title": {
+      "tr": "Güneş Koruyucu",
+      "en": "Sunscreen"
+    },
+    "primary": {
+      "tr": "Gündüz, dışarı çıkmadan önce",
+      "en": "Before going out during the day"
+    },
+    "secondary": {
+      "tr": "Cildini gün boyu güneşten korur.",
+      "en": "Shields your skin from the sun all day."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_gentle_cleanse",
+    "pillar": "wellness",
+    "category": "skin",
+    "emoji": "🫧",
+    "title": {
+      "tr": "Nazik Temizlik",
+      "en": "Gentle Cleansing"
+    },
+    "primary": {
+      "tr": "Sabah ve akşam",
+      "en": "Morning and evening"
+    },
+    "secondary": {
+      "tr": "Cildi yormadan tazeler.",
+      "en": "Refreshes skin without stressing it."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_moisturize",
+    "pillar": "wellness",
+    "category": "skin",
+    "emoji": "💦",
+    "title": {
+      "tr": "Nemlendir",
+      "en": "Moisturize"
+    },
+    "primary": {
+      "tr": "Yıkandıktan hemen sonra",
+      "en": "Right after washing"
+    },
+    "secondary": {
+      "tr": "Nem cildi yumuşak tutar.",
+      "en": "Moisture keeps skin soft."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_sleep_for_skin",
+    "pillar": "wellness",
+    "category": "skin",
+    "emoji": "😴",
+    "title": {
+      "tr": "Yeterli Uyku",
+      "en": "Enough Sleep"
+    },
+    "primary": {
+      "tr": "Her gece",
+      "en": "Every night"
+    },
+    "secondary": {
+      "tr": "Dinlenmiş bir cilt daha canlı görünür.",
+      "en": "Rested skin looks more alive."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_lukewarm_shower",
+    "pillar": "wellness",
+    "category": "skin",
+    "emoji": "🚿",
+    "title": {
+      "tr": "Ilık Duş",
+      "en": "Lukewarm Shower"
+    },
+    "primary": {
+      "tr": "Duş alırken",
+      "en": "While showering"
+    },
+    "secondary": {
+      "tr": "Çok sıcak yerine ılık su cilde daha naziktir.",
+      "en": "Lukewarm over very hot water is kinder to skin."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_veggies",
+    "pillar": "wellness",
+    "category": "skin",
+    "emoji": "🥗",
+    "title": {
+      "tr": "Renkli Sebzeler",
+      "en": "Colorful Vegetables"
+    },
+    "primary": {
+      "tr": "Öğünlerinde",
+      "en": "In your meals"
+    },
+    "secondary": {
+      "tr": "Tabağındaki renk cilde de yansır.",
+      "en": "Color on your plate shows on your skin."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_hands_off_face",
+    "pillar": "wellness",
+    "category": "skin",
+    "emoji": "🙅",
+    "title": {
+      "tr": "Yüzüne Dokunma",
+      "en": "Hands Off the Face"
+    },
+    "primary": {
+      "tr": "Gün içinde, farkında olmadan",
+      "en": "Through the day, without noticing"
+    },
+    "secondary": {
+      "tr": "Küçük bir farkındalık cildi rahat bırakır.",
+      "en": "A little awareness gives skin a break."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_water_morning",
+    "pillar": "wellness",
+    "category": "hydration",
+    "emoji": "💧",
+    "title": {
+      "tr": "Bir Bardak Su",
+      "en": "A Glass of Water"
+    },
+    "primary": {
+      "tr": "Uyanır uyanmaz, kahvaltıdan önce",
+      "en": "Right after waking, before breakfast"
+    },
+    "secondary": {
+      "tr": "Gece boyu kaybedilen sıvıyı yerine koyar, güne canlı başlatır.",
+      "en": "Replaces fluid lost overnight and helps you start the day fresh."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_water_bottle",
+    "pillar": "wellness",
+    "category": "hydration",
+    "emoji": "🍶",
+    "title": {
+      "tr": "Yanında Su Taşı",
+      "en": "Carry a Bottle"
+    },
+    "primary": {
+      "tr": "Evden çıkarken",
+      "en": "When leaving home"
+    },
+    "secondary": {
+      "tr": "Görünen su, içmeyi hatırlatır.",
+      "en": "Visible water reminds you to drink."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_water_before_meal",
+    "pillar": "wellness",
+    "category": "hydration",
+    "emoji": "🥤",
+    "title": {
+      "tr": "Yemekten Önce Su",
+      "en": "Water Before Meals"
+    },
+    "primary": {
+      "tr": "Öğünden biraz önce",
+      "en": "Shortly before a meal"
+    },
+    "secondary": {
+      "tr": "Sofraya daha sakin oturmanı sağlar.",
+      "en": "Helps you come to the table calmer."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_herbal_tea",
+    "pillar": "wellness",
+    "category": "hydration",
+    "emoji": "🍵",
+    "title": {
+      "tr": "Bitki Çayı",
+      "en": "Herbal Tea"
+    },
+    "primary": {
+      "tr": "Sade su sıkıcı geldiğinde",
+      "en": "When plain water feels dull"
+    },
+    "secondary": {
+      "tr": "Sıvı almanın keyifli bir yolu.",
+      "en": "A pleasant way to take in fluids."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_fruit_water",
+    "pillar": "wellness",
+    "category": "hydration",
+    "emoji": "🍉",
+    "title": {
+      "tr": "Sulu Meyveler",
+      "en": "Juicy Fruits"
+    },
+    "primary": {
+      "tr": "Ara öğünlerde",
+      "en": "As snacks"
+    },
+    "secondary": {
+      "tr": "Hem serinletir hem sıvı katkısı sağlar.",
+      "en": "Refreshes and adds to your fluids."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_water_after_activity",
+    "pillar": "wellness",
+    "category": "hydration",
+    "emoji": "🏃",
+    "title": {
+      "tr": "Hareketten Sonra Su",
+      "en": "Water After Activity"
+    },
+    "primary": {
+      "tr": "Egzersiz ya da yürüyüş sonrası",
+      "en": "After exercise or a walk"
+    },
+    "secondary": {
+      "tr": "Kaybedilen sıvıyı geri kazandırır.",
+      "en": "Replaces the fluid you used up."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_warm_in_winter",
+    "pillar": "wellness",
+    "category": "hydration",
+    "emoji": "♨️",
+    "title": {
+      "tr": "Kışın Ilık Su",
+      "en": "Warm Water in Winter"
+    },
+    "primary": {
+      "tr": "Soğuk günlerde su içmek zorlaştığında",
+      "en": "When cold days make water unappealing"
+    },
+    "secondary": {
+      "tr": "Ilık su içmeyi kolaylaştırır.",
+      "en": "Warm water makes sipping easier."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "w_notice_thirst",
+    "pillar": "wellness",
+    "category": "hydration",
+    "emoji": "👂",
+    "title": {
+      "tr": "Susuzluğu Fark Et",
+      "en": "Notice Thirst"
+    },
+    "primary": {
+      "tr": "Gün boyunca",
+      "en": "Throughout the day"
+    },
+    "secondary": {
+      "tr": "Bedenini dinlemek en iyi rehberdir.",
+      "en": "Listening to your body is the best guide."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman",
+      "en": "When"
+    },
+    "secondaryLabel": {
+      "tr": "Neden",
+      "en": "Why"
+    }
+  },
+  {
+    "id": "c_help_not_for_you",
+    "pillar": "communication",
+    "category": "boundaries",
+    "emoji": "🧭",
+    "title": {
+      "tr": "\"Sana yardım ederim ama senin yerine yapmam.\"",
+      "en": "\"I'll help you, but I won't do it for you.\""
+    },
+    "primary": {
+      "tr": "Çocuk bir işte zorlanıp pes etmek üzereyken",
+      "en": "When your child struggles and is about to give up"
+    },
+    "secondary": {
+      "tr": "Destek verirken sorumluluğu çocukta bırakır.",
+      "en": "Offers support while leaving responsibility with the child."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_stop_to_keep_safe",
+    "pillar": "communication",
+    "category": "boundaries",
+    "emoji": "🛑",
+    "title": {
+      "tr": "\"Şu an durduruyorum çünkü güvende kalman gerekiyor.\"",
+      "en": "\"I'm stopping this now because you need to stay safe.\""
+    },
+    "primary": {
+      "tr": "Tehlikeli bir davranışı kesmen gerektiğinde",
+      "en": "When you need to stop a risky behavior"
+    },
+    "secondary": {
+      "tr": "Sınırın amacının kontrol değil, korumak olduğunu gösterir.",
+      "en": "Shows the boundary is about protection, not control."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_my_job",
+    "pillar": "communication",
+    "category": "boundaries",
+    "emoji": "🌟",
+    "title": {
+      "tr": "\"Benim işim seni korumak, her dediğine evet demek değil.\"",
+      "en": "\"My job is to keep you safe, not to say yes to everything.\""
+    },
+    "primary": {
+      "tr": "Ardı ardına gelen 'olmaz' tepkilerinde",
+      "en": "When facing repeated pushback on a 'no'"
+    },
+    "secondary": {
+      "tr": "Ebeveynliğin amacının memnun etmek değil rehberlik etmek olduğunu hatırlatır.",
+      "en": "Reminds that parenting is about guidance, not pleasing."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_listening_no_change",
+    "pillar": "communication",
+    "category": "boundaries",
+    "emoji": "🤝",
+    "title": {
+      "tr": "\"Seni dinliyorum ama kararım değişmeyecek.\"",
+      "en": "\"I hear you, but my decision won't change.\""
+    },
+    "primary": {
+      "tr": "Çocuk pazarlık etmeye çalışırken",
+      "en": "When your child tries to negotiate a firm limit"
+    },
+    "secondary": {
+      "tr": "Sınırın tartışmaya açık olmadığını sakin bir dille ifade eder.",
+      "en": "Calmly signals the limit isn't up for debate."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_no_is_complete",
+    "pillar": "communication",
+    "category": "boundaries",
+    "emoji": "🚦",
+    "title": {
+      "tr": "\"Hayır da bir cevaptır.\"",
+      "en": "\"No is a complete answer.\""
+    },
+    "primary": {
+      "tr": "Her sınır 'neden' ile karşılandığında",
+      "en": "When every limit is met with 'why'"
+    },
+    "secondary": {
+      "tr": "Bir sınırın geçerli olması için uzun gerekçe gerekmediğini gösterir.",
+      "en": "Shows a limit doesn't need a long justification to be valid."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_choice_within_limit",
+    "pillar": "communication",
+    "category": "boundaries",
+    "emoji": "🔀",
+    "title": {
+      "tr": "\"İkisinden birini seçebilirsin.\"",
+      "en": "\"You can choose between these two.\""
+    },
+    "primary": {
+      "tr": "Çocuk kontrol isterken kural korunmalıyken",
+      "en": "When your child wants control but the rule stays"
+    },
+    "secondary": {
+      "tr": "Sınırın içinde özgürlük tanır.",
+      "en": "Offers freedom inside the boundary."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_calm_repeat",
+    "pillar": "communication",
+    "category": "boundaries",
+    "emoji": "🔁",
+    "title": {
+      "tr": "\"Söylediğim hâlâ geçerli.\"",
+      "en": "\"What I said still stands.\""
+    },
+    "primary": {
+      "tr": "Aynı talep tekrar tekrar geldiğinde",
+      "en": "When the same request keeps coming back"
+    },
+    "secondary": {
+      "tr": "Sakin tekrar, tartışmadan netlik verir.",
+      "en": "Calm repetition gives clarity without a fight."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_after_you_finish",
+    "pillar": "communication",
+    "category": "boundaries",
+    "emoji": "⏳",
+    "title": {
+      "tr": "\"Önce şunu bitir, sonra yapabilirsin.\"",
+      "en": "\"First finish this, then you can.\""
+    },
+    "primary": {
+      "tr": "Bir isteği ertelemen gerektiğinde",
+      "en": "When a request needs to wait"
+    },
+    "secondary": {
+      "tr": "Beklemeyi cezasız, net bir sıraya bağlar.",
+      "en": "Frames waiting as a clear order, not a punishment."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_feelings_ok",
+    "pillar": "communication",
+    "category": "emotions",
+    "emoji": "💬",
+    "title": {
+      "tr": "\"İstediğin gibi olmadığı için üzülmen çok normal.\"",
+      "en": "\"It's okay to be upset that it didn't go your way.\""
+    },
+    "primary": {
+      "tr": "Çocuk hayal kırıklığı yaşadığında",
+      "en": "When your child is disappointed"
+    },
+    "secondary": {
+      "tr": "Duyguyu kabul eder ama sınırdan vazgeçmez.",
+      "en": "Accepts the feeling without abandoning the boundary."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_name_emotion",
+    "pillar": "communication",
+    "category": "emotions",
+    "emoji": "🗣️",
+    "title": {
+      "tr": "\"Şu an üzgün görünüyorsun.\"",
+      "en": "\"You seem sad right now.\""
+    },
+    "primary": {
+      "tr": "Çocuk ne hissettiğini söyleyemezken",
+      "en": "When your child can't name what they feel"
+    },
+    "secondary": {
+      "tr": "Duyguyu adlandırmak onu anlaşılır kılar.",
+      "en": "Naming a feeling makes it feel understood."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_im_here",
+    "pillar": "communication",
+    "category": "emotions",
+    "emoji": "🤗",
+    "title": {
+      "tr": "\"Buradayım, geçene kadar yanındayım.\"",
+      "en": "\"I'm here, I'll stay until it passes.\""
+    },
+    "primary": {
+      "tr": "Çocuk ağlarken ya da bunalmışken",
+      "en": "When your child is crying or overwhelmed"
+    },
+    "secondary": {
+      "tr": "Varlığın güvenli bir liman sunar.",
+      "en": "Your presence offers a safe harbor."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_all_feelings_ok",
+    "pillar": "communication",
+    "category": "emotions",
+    "emoji": "⚖️",
+    "title": {
+      "tr": "\"Bütün duygular olabilir, bütün davranışlar değil.\"",
+      "en": "\"All feelings are okay; not all actions are.\""
+    },
+    "primary": {
+      "tr": "Öfke bir şeye zarar vermeye dönüştüğünde",
+      "en": "When anger turns into hurting something"
+    },
+    "secondary": {
+      "tr": "Duyguyu kabul ederken davranışa sınır koyar.",
+      "en": "Accepts the feeling while limiting the action."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_take_a_moment",
+    "pillar": "communication",
+    "category": "emotions",
+    "emoji": "⏸️",
+    "title": {
+      "tr": "\"İstersen biraz duralım.\"",
+      "en": "\"We can pause for a bit if you want.\""
+    },
+    "primary": {
+      "tr": "Duygular çok yükseldiğinde",
+      "en": "When feelings run very high"
+    },
+    "secondary": {
+      "tr": "Mola, sakinleşmek için alan açar.",
+      "en": "A pause makes room to settle."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_tell_me_more",
+    "pillar": "communication",
+    "category": "emotions",
+    "emoji": "👂",
+    "title": {
+      "tr": "\"Bana biraz daha anlatır mısın?\"",
+      "en": "\"Can you tell me a little more?\""
+    },
+    "primary": {
+      "tr": "Çocuk bir şeye üzülüp içine kapandığında",
+      "en": "When your child shuts down over something"
+    },
+    "secondary": {
+      "tr": "Merak, konuşmanın kapısını aralar.",
+      "en": "Curiosity opens the door to talking."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_it_was_hard",
+    "pillar": "communication",
+    "category": "emotions",
+    "emoji": "🌙",
+    "title": {
+      "tr": "\"Bugün zor bir gündü, değil mi?\"",
+      "en": "\"That was a hard day, wasn't it?\""
+    },
+    "primary": {
+      "tr": "Yorgun ve gergin bir günün sonunda",
+      "en": "At the end of a tiring, tense day"
+    },
+    "secondary": {
+      "tr": "Paylaşılan bir gözlem yükü hafifletir.",
+      "en": "A shared observation lightens the load."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_proud_of_calm",
+    "pillar": "communication",
+    "category": "emotions",
+    "emoji": "🌟",
+    "title": {
+      "tr": "\"Sakinleşmek için çabaladığını gördüm.\"",
+      "en": "\"I saw you try hard to calm down.\""
+    },
+    "primary": {
+      "tr": "Çocuk kendini toparlamaya çalıştığında",
+      "en": "When your child works to pull themselves together"
+    },
+    "secondary": {
+      "tr": "Çabayı fark etmek onu güçlendirir.",
+      "en": "Noticing the effort builds them up."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_try_together",
+    "pillar": "communication",
+    "category": "cooperation",
+    "emoji": "🧩",
+    "title": {
+      "tr": "\"Hadi bunu birlikte çözelim.\"",
+      "en": "\"Let's figure this out together.\""
+    },
+    "primary": {
+      "tr": "Çocuk bir görevden kaçındığında",
+      "en": "When your child avoids a task"
+    },
+    "secondary": {
+      "tr": "İş birliğini emir vermeden davet eder.",
+      "en": "Invites cooperation without issuing commands."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_what_first",
+    "pillar": "communication",
+    "category": "cooperation",
+    "emoji": "🪜",
+    "title": {
+      "tr": "\"Önce hangisini yapalım?\"",
+      "en": "\"Which one should we do first?\""
+    },
+    "primary": {
+      "tr": "Bir görevi başlatmak zor geldiğinde",
+      "en": "When starting a task feels hard"
+    },
+    "secondary": {
+      "tr": "Seçim, iş birliğini gönüllü kılar.",
+      "en": "A choice makes cooperation feel voluntary."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_tidy_race",
+    "pillar": "communication",
+    "category": "cooperation",
+    "emoji": "🏁",
+    "title": {
+      "tr": "\"Bakalım kim daha çabuk toplayacak.\"",
+      "en": "\"Let's see who tidies up faster.\""
+    },
+    "primary": {
+      "tr": "Toplanması gereken bir dağınıklık varken",
+      "en": "When there's a mess to clean up"
+    },
+    "secondary": {
+      "tr": "Oyun, görevi hafif ve eğlenceli yapar.",
+      "en": "Play makes a chore light and fun."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_when_then",
+    "pillar": "communication",
+    "category": "cooperation",
+    "emoji": "🎯",
+    "title": {
+      "tr": "\"Toplandığında parka gidebiliriz.\"",
+      "en": "\"When it's tidy, we can go to the park.\""
+    },
+    "primary": {
+      "tr": "Bir işi keyifli bir şeye bağlamak istediğinde",
+      "en": "When linking a task to something fun"
+    },
+    "secondary": {
+      "tr": "Sırayı net kurar, pazarlığı azaltır.",
+      "en": "Sets a clear order and reduces bargaining."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_your_help",
+    "pillar": "communication",
+    "category": "cooperation",
+    "emoji": "🙌",
+    "title": {
+      "tr": "\"Senin yardımına ihtiyacım var.\"",
+      "en": "\"I could really use your help.\""
+    },
+    "primary": {
+      "tr": "Çocuğu bir işe dâhil etmek istediğinde",
+      "en": "When you want to involve your child"
+    },
+    "secondary": {
+      "tr": "İhtiyaç hissetmek katkıyı değerli kılar.",
+      "en": "Feeling needed makes contributing feel worthwhile."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_two_minutes",
+    "pillar": "communication",
+    "category": "cooperation",
+    "emoji": "⏱️",
+    "title": {
+      "tr": "\"İki dakika sonra başlıyoruz.\"",
+      "en": "\"We start in two minutes.\""
+    },
+    "primary": {
+      "tr": "Bir aktiviteden diğerine geçerken",
+      "en": "When moving from one activity to another"
+    },
+    "secondary": {
+      "tr": "Önceden haber vermek geçişi yumuşatır.",
+      "en": "A heads-up softens the transition."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_show_me",
+    "pillar": "communication",
+    "category": "cooperation",
+    "emoji": "👐",
+    "title": {
+      "tr": "\"Bana nasıl yapıldığını gösterir misin?\"",
+      "en": "\"Can you show me how it's done?\""
+    },
+    "primary": {
+      "tr": "Çocuk bir konuda yetkin hissettiğinde",
+      "en": "When your child feels capable at something"
+    },
+    "secondary": {
+      "tr": "Rol vermek iş birliğini davet eder.",
+      "en": "Giving a role invites cooperation."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_thank_you_specific",
+    "pillar": "communication",
+    "category": "cooperation",
+    "emoji": "💛",
+    "title": {
+      "tr": "\"Sofrayı kurmana çok sevindim.\"",
+      "en": "\"I really liked how you set the table.\""
+    },
+    "primary": {
+      "tr": "Çocuk yardım ettikten sonra",
+      "en": "Right after your child helps"
+    },
+    "secondary": {
+      "tr": "Belirgin teşekkür, davranışı pekiştirir.",
+      "en": "Specific thanks reinforces the behavior."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_you_can_handle",
+    "pillar": "communication",
+    "category": "confidence",
+    "emoji": "🌱",
+    "title": {
+      "tr": "\"Bu zor ama senin bunu yapabileceğini biliyorum.\"",
+      "en": "\"This is hard, but I know you can handle it.\""
+    },
+    "primary": {
+      "tr": "Çocuk 'yapamam' dediğinde",
+      "en": "When your child says 'I can't'"
+    },
+    "secondary": {
+      "tr": "Zorluğu küçümsemeden çocuğun yeterlilik duygusunu besler.",
+      "en": "Builds competence without dismissing the difficulty."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_you_worked_hard",
+    "pillar": "communication",
+    "category": "confidence",
+    "emoji": "💪",
+    "title": {
+      "tr": "\"Çok çalıştığını gördüm.\"",
+      "en": "\"I saw how hard you worked.\""
+    },
+    "primary": {
+      "tr": "Sonuç ne olursa olsun, çaba sonrası",
+      "en": "After the effort, whatever the result"
+    },
+    "secondary": {
+      "tr": "Çabayı övmek dayanıklılığı besler.",
+      "en": "Praising effort builds resilience."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_mistakes_ok",
+    "pillar": "communication",
+    "category": "confidence",
+    "emoji": "🔄",
+    "title": {
+      "tr": "\"Hata yapmak öğrenmenin bir parçası.\"",
+      "en": "\"Mistakes are part of learning.\""
+    },
+    "primary": {
+      "tr": "Çocuk bir hatadan dolayı üzüldüğünde",
+      "en": "When your child is upset over a mistake"
+    },
+    "secondary": {
+      "tr": "Hatayı normalleştirmek denemeyi kolaylaştırır.",
+      "en": "Normalizing mistakes makes trying easier."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_how_did_you",
+    "pillar": "communication",
+    "category": "confidence",
+    "emoji": "🧠",
+    "title": {
+      "tr": "\"Bunu nasıl çözdün?\"",
+      "en": "\"How did you figure that out?\""
+    },
+    "primary": {
+      "tr": "Çocuk bir şeyi kendi başardığında",
+      "en": "When your child manages something alone"
+    },
+    "secondary": {
+      "tr": "Sürece dair soru, sahiplenmeyi artırır.",
+      "en": "Asking about the process deepens ownership."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_try_first",
+    "pillar": "communication",
+    "category": "confidence",
+    "emoji": "🪜",
+    "title": {
+      "tr": "\"Önce sen dene, gerekirse yanındayım.\"",
+      "en": "\"Try first; I'm here if you need me.\""
+    },
+    "primary": {
+      "tr": "Çocuk hemen yardım istediğinde",
+      "en": "When your child asks for help right away"
+    },
+    "secondary": {
+      "tr": "Denemeye alan açar, güveni büyütür.",
+      "en": "Makes room to try and grows confidence."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_remember_when",
+    "pillar": "communication",
+    "category": "confidence",
+    "emoji": "🕰️",
+    "title": {
+      "tr": "\"Geçen sefer de zorlanmıştın, sonra başardın.\"",
+      "en": "\"Last time was hard too, and then you did it.\""
+    },
+    "primary": {
+      "tr": "Çocuk cesaretini yitirdiğinde",
+      "en": "When your child loses heart"
+    },
+    "secondary": {
+      "tr": "Geçmiş başarı bugünkü cesaret olur.",
+      "en": "Past success becomes today's courage."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_your_idea",
+    "pillar": "communication",
+    "category": "confidence",
+    "emoji": "💡",
+    "title": {
+      "tr": "\"Bu senin fikrin, çok güzel.\"",
+      "en": "\"That was your idea — I love it.\""
+    },
+    "primary": {
+      "tr": "Çocuk bir şey önerdiğinde",
+      "en": "When your child offers an idea"
+    },
+    "secondary": {
+      "tr": "Fikirlerini değerli görmek girişkenliği besler.",
+      "en": "Valuing their ideas nurtures initiative."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_almost",
+    "pillar": "communication",
+    "category": "confidence",
+    "emoji": "🎈",
+    "title": {
+      "tr": "\"Neredeyse oldu, bir daha deneyelim mi?\"",
+      "en": "\"Almost — shall we try once more?\""
+    },
+    "primary": {
+      "tr": "Bir denemenin tam tutmadığı anda",
+      "en": "When an attempt doesn't quite work"
+    },
+    "secondary": {
+      "tr": "Yeniden denemeyi cesaretle eşler.",
+      "en": "Pairs trying again with encouragement."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_name_the_feeling",
+    "pillar": "communication",
+    "category": "earlyYears",
+    "emoji": "🍼",
+    "title": {
+      "tr": "\"Kızgınsın, görüyorum.\"",
+      "en": "\"You're angry — I can see it.\""
+    },
+    "primary": {
+      "tr": "Küçük çocuk öfke nöbetindeyken",
+      "en": "When a young child is mid-meltdown"
+    },
+    "secondary": {
+      "tr": "Duyguyu isimlendirmek çocuğun sakinleşmesine yardımcı olur.",
+      "en": "Naming the feeling helps the child settle."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_simple_order",
+    "pillar": "communication",
+    "category": "earlyYears",
+    "emoji": "🍽️",
+    "title": {
+      "tr": "\"Şimdi yemek, sonra oyun.\"",
+      "en": "\"First food, then play.\""
+    },
+    "primary": {
+      "tr": "Küçük çocuğa sıradaki şeyi anlatırken",
+      "en": "When telling a toddler what comes next"
+    },
+    "secondary": {
+      "tr": "Kısa ve sıralı cümleler anlaşılır olur.",
+      "en": "Short, ordered phrases are easier to follow."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_narrate",
+    "pillar": "communication",
+    "category": "earlyYears",
+    "emoji": "👟",
+    "title": {
+      "tr": "\"Şimdi ayakkabını giyiyoruz.\"",
+      "en": "\"Now we're putting on your shoes.\""
+    },
+    "primary": {
+      "tr": "Günlük işleri yaparken",
+      "en": "While doing everyday routines"
+    },
+    "secondary": {
+      "tr": "Olanı anlatmak kelime dağarcığını besler.",
+      "en": "Narrating builds vocabulary."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_i_see_you_trying",
+    "pillar": "communication",
+    "category": "earlyYears",
+    "emoji": "👀",
+    "title": {
+      "tr": "\"Görüyorum, deniyorsun.\"",
+      "en": "\"I can see you trying.\""
+    },
+    "primary": {
+      "tr": "Küçük çocuk bir şeyle uğraşırken",
+      "en": "When a young child struggles with something"
+    },
+    "secondary": {
+      "tr": "Fark edilmek çabayı sürdürmesini sağlar.",
+      "en": "Being noticed helps them keep going."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_almost_bedtime",
+    "pillar": "communication",
+    "category": "earlyYears",
+    "emoji": "📖",
+    "title": {
+      "tr": "\"Birazdan uyku vakti, son bir kitap.\"",
+      "en": "\"Sleep soon — one last book.\""
+    },
+    "primary": {
+      "tr": "Yatma rutini yaklaşırken",
+      "en": "As the bedtime routine nears"
+    },
+    "secondary": {
+      "tr": "Önceden bilgi geçişi kolaylaştırır.",
+      "en": "A gentle heads-up eases the transition."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_gentle_hands",
+    "pillar": "communication",
+    "category": "earlyYears",
+    "emoji": "✋",
+    "title": {
+      "tr": "\"Yavaş ellerle dokunuyoruz.\"",
+      "en": "\"We touch with gentle hands.\""
+    },
+    "primary": {
+      "tr": "Çocuk sertçe dokunduğunda",
+      "en": "When your child touches too roughly"
+    },
+    "secondary": {
+      "tr": "Ne yapılacağını söylemek 'yapma'dan daha etkilidir.",
+      "en": "Saying what to do works better than 'don't'."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_you_are_safe",
+    "pillar": "communication",
+    "category": "earlyYears",
+    "emoji": "🛟",
+    "title": {
+      "tr": "\"Buradayım, güvendesin.\"",
+      "en": "\"I'm here, you're safe.\""
+    },
+    "primary": {
+      "tr": "Küçük çocuk korktuğunda",
+      "en": "When a young child is scared"
+    },
+    "secondary": {
+      "tr": "Sakin güvence bedeni yatıştırır.",
+      "en": "Calm reassurance soothes the body."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  },
+  {
+    "id": "c_bye_routine",
+    "pillar": "communication",
+    "category": "earlyYears",
+    "emoji": "👋",
+    "title": {
+      "tr": "\"Öpücük, sarıl, sonra görüşürüz.\"",
+      "en": "\"Kiss, hug, see you later.\""
+    },
+    "primary": {
+      "tr": "Ayrılık anında, bırakırken",
+      "en": "At drop-off or goodbye"
+    },
+    "secondary": {
+      "tr": "Tutarlı bir veda güven verir.",
+      "en": "A consistent goodbye builds trust."
+    },
+    "primaryLabel": {
+      "tr": "Ne Zaman Söylenir",
+      "en": "When to Say It"
+    },
+    "secondaryLabel": {
+      "tr": "Neden İşe Yarar",
+      "en": "Why It Works"
+    }
+  }
+]
