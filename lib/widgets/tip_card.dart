@@ -50,6 +50,7 @@ class TipCard extends StatelessWidget {
         child: InkWell(
           onTap: onTap,
           child: CustomScrollView(
+            physics: const NeverScrollableScrollPhysics(),
             slivers: [
               SliverPadding(
                 padding: padding,
