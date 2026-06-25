@@ -34,8 +34,10 @@ class CategoryDetailScreen extends ConsumerWidget {
             padding: const EdgeInsets.fromLTRB(16, 16, 16, 24),
             itemCount: tips.length,
             separatorBuilder: (_, _) => const SizedBox(height: 16),
-            itemBuilder: (context, i) =>
-                SizedBox(height: 480, child: TipCard(tip: tips[i])),
+            itemBuilder: (context, i) {
+              final cardHeight = MediaQuery.sizeOf(context).height * 0.65;
+              return SizedBox(height: cardHeight, child: TipCard(tip: tips[i]));
+            },
           );
         },
       ),

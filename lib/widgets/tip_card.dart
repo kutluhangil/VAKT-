@@ -15,10 +15,12 @@ class TipCard extends StatelessWidget {
     super.key,
     required this.tip,
     this.padding = const EdgeInsets.fromLTRB(28, 28, 28, 28),
+    this.onTap,
   });
 
   final Tip tip;
   final EdgeInsets padding;
+  final VoidCallback? onTap;
 
   @override
   Widget build(BuildContext context) {
@@ -33,37 +35,39 @@ class TipCard extends StatelessWidget {
         ? AppTypography.titleXL
         : AppTypography.titleL;
 
-    return Container(
-      decoration: BoxDecoration(
-        color: Color.alphaBlend(
-          tint.withValues(alpha: 0.06),
-          theme.colorScheme.surface,
+    return Material(
+      color: Colors.transparent,
+      child: Container(
+        decoration: BoxDecoration(
+          color: Color.alphaBlend(
+            tint.withValues(alpha: 0.06),
+            theme.colorScheme.surface,
+          ),
+          borderRadius: BorderRadius.circular(20),
+          border: Border.all(color: theme.dividerColor),
         ),
-        borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: theme.dividerColor),
-      ),
-      clipBehavior: Clip.antiAlias,
-      child: LayoutBuilder(
-        builder: (context, constraints) {
-          return SingleChildScrollView(
-            padding: padding,
-            child: ConstrainedBox(
-              constraints: BoxConstraints(
-                minHeight: constraints.maxHeight - padding.vertical,
-              ),
-              child: IntrinsicHeight(
-                child: _content(
-                  context,
-                  lang,
-                  category,
-                  tint,
-                  muted,
-                  titleStyle,
+        clipBehavior: Clip.antiAlias,
+        child: InkWell(
+          onTap: onTap,
+          child: CustomScrollView(
+            slivers: [
+              SliverPadding(
+                padding: padding,
+                sliver: SliverFillRemaining(
+                  hasScrollBody: false,
+                  child: _content(
+                    context,
+                    lang,
+                    category,
+                    tint,
+                    muted,
+                    titleStyle,
+                  ),
                 ),
               ),
-            ),
-          );
-        },
+            ],
+          ),
+        ),
       ),
     );
   }
@@ -129,6 +133,7 @@ class _CardHero extends StatelessWidget {
         child: Image.asset(
           'assets/images/cards/${tip.id}.webp',
           fit: BoxFit.cover,
+          gaplessPlayback: true,
           // No illustration yet -> keep the branded placeholder.
           errorBuilder: (context, error, stackTrace) => _fallback(),
         ),

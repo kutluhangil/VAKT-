@@ -87,6 +87,7 @@ class _DetailBody extends StatelessWidget {
                       child: Image.asset(
                         'assets/images/cards/${tip.id}.webp',
                         fit: BoxFit.cover,
+                        gaplessPlayback: true,
                         errorBuilder: (context, error, stack) => _HeroFallback(
                           tip: tip,
                           tint: tint,

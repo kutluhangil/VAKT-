@@ -40,9 +40,9 @@ class FeedScreen extends ConsumerWidget {
                     child: Stack(
                       children: [
                         Positioned.fill(
-                          child: GestureDetector(
+                          child: TipCard(
+                            tip: tip,
                             onTap: () => context.push('/tip/${tip.id}'),
-                            child: TipCard(tip: tip),
                           ),
                         ),
                         Positioned(
