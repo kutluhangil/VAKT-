@@ -15,6 +15,37 @@ class AppLocalizationsEn extends AppLocalizations {
   String get appTagline => 'The right thing, at the right time.';
 
   @override
+  String get landingIntro =>
+      'Designed to help you find your own rhythm in the pace of modern life. At the meeting point of wellness and communication — a moment of time made for you.';
+
+  @override
+  String get landingWellnessBody =>
+      'From nutrition to sleep, discover the calm your body needs through your daily rituals.';
+
+  @override
+  String get landingCommBody =>
+      'Boundaries, emotions, and deeper bonds. Strengthen the dialogue with yourself and the people around you.';
+
+  @override
+  String get landingChipWellness1 => 'Support Digestion';
+
+  @override
+  String get landingChipWellness2 => 'Energy Flow';
+
+  @override
+  String get landingChipComm1 => 'Emotional Intelligence';
+
+  @override
+  String get landingChipComm2 => 'Setting Boundaries';
+
+  @override
+  String get landingCta => 'Begin the journey';
+
+  @override
+  String get landingSubtext =>
+      'Completely ad-free, personal, and always with you.';
+
+  @override
   String get tabFeed => 'Feed';
 
   @override

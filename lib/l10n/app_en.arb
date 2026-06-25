@@ -3,6 +3,16 @@
   "appTitle": "Vakti",
   "appTagline": "The right thing, at the right time.",
 
+  "landingIntro": "Designed to help you find your own rhythm in the pace of modern life. At the meeting point of wellness and communication — a moment of time made for you.",
+  "landingWellnessBody": "From nutrition to sleep, discover the calm your body needs through your daily rituals.",
+  "landingCommBody": "Boundaries, emotions, and deeper bonds. Strengthen the dialogue with yourself and the people around you.",
+  "landingChipWellness1": "Support Digestion",
+  "landingChipWellness2": "Energy Flow",
+  "landingChipComm1": "Emotional Intelligence",
+  "landingChipComm2": "Setting Boundaries",
+  "landingCta": "Begin the journey",
+  "landingSubtext": "Completely ad-free, personal, and always with you.",
+
   "tabFeed": "Feed",
   "tabBrowse": "Browse",
   "tabFavorites": "Favorites",

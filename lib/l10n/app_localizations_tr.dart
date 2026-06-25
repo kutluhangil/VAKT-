@@ -15,6 +15,37 @@ class AppLocalizationsTr extends AppLocalizations {
   String get appTagline => 'Doğru bilgi, doğru vakitte.';
 
   @override
+  String get landingIntro =>
+      'Modern yaşamın hızında kendi ritminizi bulmanız için tasarlandı. Wellness ve iletişimin kesişim noktasında, size özel bir zaman dilimi.';
+
+  @override
+  String get landingWellnessBody =>
+      'Beslenmeden uyku düzenine, günlük ritüellerinizle vücudunuzun ihtiyaç duyduğu huzuru keşfedin.';
+
+  @override
+  String get landingCommBody =>
+      'Sınırlar, duygular ve derin bağlar. Kendinizle ve çevrenizle olan diyaloğunuzu güçlendirin.';
+
+  @override
+  String get landingChipWellness1 => 'Sindirimi Destekle';
+
+  @override
+  String get landingChipWellness2 => 'Enerji Akışı';
+
+  @override
+  String get landingChipComm1 => 'Duygusal Zeka';
+
+  @override
+  String get landingChipComm2 => 'Sınır Çizmek';
+
+  @override
+  String get landingCta => 'Yolculuğa Başla';
+
+  @override
+  String get landingSubtext =>
+      'Tamamen reklamsız, size özel ve her zaman yanınızda.';
+
+  @override
   String get tabFeed => 'Akış';
 
   @override

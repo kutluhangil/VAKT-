@@ -110,6 +110,60 @@ abstract class AppLocalizations {
   /// **'The right thing, at the right time.'**
   String get appTagline;
 
+  /// No description provided for @landingIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'Designed to help you find your own rhythm in the pace of modern life. At the meeting point of wellness and communication — a moment of time made for you.'**
+  String get landingIntro;
+
+  /// No description provided for @landingWellnessBody.
+  ///
+  /// In en, this message translates to:
+  /// **'From nutrition to sleep, discover the calm your body needs through your daily rituals.'**
+  String get landingWellnessBody;
+
+  /// No description provided for @landingCommBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Boundaries, emotions, and deeper bonds. Strengthen the dialogue with yourself and the people around you.'**
+  String get landingCommBody;
+
+  /// No description provided for @landingChipWellness1.
+  ///
+  /// In en, this message translates to:
+  /// **'Support Digestion'**
+  String get landingChipWellness1;
+
+  /// No description provided for @landingChipWellness2.
+  ///
+  /// In en, this message translates to:
+  /// **'Energy Flow'**
+  String get landingChipWellness2;
+
+  /// No description provided for @landingChipComm1.
+  ///
+  /// In en, this message translates to:
+  /// **'Emotional Intelligence'**
+  String get landingChipComm1;
+
+  /// No description provided for @landingChipComm2.
+  ///
+  /// In en, this message translates to:
+  /// **'Setting Boundaries'**
+  String get landingChipComm2;
+
+  /// No description provided for @landingCta.
+  ///
+  /// In en, this message translates to:
+  /// **'Begin the journey'**
+  String get landingCta;
+
+  /// No description provided for @landingSubtext.
+  ///
+  /// In en, this message translates to:
+  /// **'Completely ad-free, personal, and always with you.'**
+  String get landingSubtext;
+
   /// No description provided for @tabFeed.
   ///
   /// In en, this message translates to:

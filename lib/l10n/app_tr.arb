@@ -3,6 +3,16 @@
   "appTitle": "Vakti",
   "appTagline": "Doğru bilgi, doğru vakitte.",
 
+  "landingIntro": "Modern yaşamın hızında kendi ritminizi bulmanız için tasarlandı. Wellness ve iletişimin kesişim noktasında, size özel bir zaman dilimi.",
+  "landingWellnessBody": "Beslenmeden uyku düzenine, günlük ritüellerinizle vücudunuzun ihtiyaç duyduğu huzuru keşfedin.",
+  "landingCommBody": "Sınırlar, duygular ve derin bağlar. Kendinizle ve çevrenizle olan diyaloğunuzu güçlendirin.",
+  "landingChipWellness1": "Sindirimi Destekle",
+  "landingChipWellness2": "Enerji Akışı",
+  "landingChipComm1": "Duygusal Zeka",
+  "landingChipComm2": "Sınır Çizmek",
+  "landingCta": "Yolculuğa Başla",
+  "landingSubtext": "Tamamen reklamsız, size özel ve her zaman yanınızda.",
+
   "tabFeed": "Akış",
   "tabBrowse": "Gözat",
   "tabFavorites": "Favoriler",
