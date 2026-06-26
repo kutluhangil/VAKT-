@@ -177,7 +177,7 @@ class SettingsScreen extends ConsumerWidget {
           const SizedBox(height: 40),
           Center(
             child: Text(
-              'VAKTİ V1.0.0',
+              'VAKTİ V1.1.0',
               style: AppTypography.labelCaps.copyWith(
                 color: theme.dividerColor,
               ),
