@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../app/theme/app_colors.dart';
@@ -23,7 +24,12 @@ class TipActions extends ConsumerWidget {
       _ActionButton(
         icon: isFav ? Icons.favorite : Icons.favorite_border,
         active: isFav,
-        onTap: () => ref.read(favoritesProvider.notifier).toggle(tip.id),
+        onTap: () {
+          // Distinct feedback: a firmer tap when saving, a light one when
+          // removing.
+          isFav ? HapticFeedback.lightImpact() : HapticFeedback.mediumImpact();
+          ref.read(favoritesProvider.notifier).toggle(tip.id);
+        },
       ),
       SizedBox(
         width: axis == Axis.vertical ? 0 : 12,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../app/router.dart';
@@ -10,6 +11,7 @@ import '../../widgets/time_arc.dart';
 
 /// Shows the full-screen milestone celebration. Returns when dismissed.
 Future<void> showStreakCelebration(BuildContext context, int milestone) {
+  HapticFeedback.heavyImpact(); // mark the milestone moment
   return showGeneralDialog(
     context: context,
     barrierDismissible: false,
