@@ -145,31 +145,39 @@ State as shipped to closed test on Play. Reference when picking work back up.
 - **Content:** 88 cards in `assets/data/tips.json`, fully bilingual TR/EN, two
   pillars (wellness, communication). Communication titles are quoted sentences.
 
-### Ideas backlog (proposed, not built)
+### Ideas backlog
 Visual/design:
-- [ ] Feed parallax + scale/fade on vertical page transition.
-- [ ] Wire time-arc to the real time of day (morning/noon/evening) — strengthens
-      the "right moment" theme; today `arcPositionForTip` is per-tip static.
-- [ ] Detail hero parallax + gradient scrim for title legibility.
-- [ ] Deeper category-color use in detail (colored section accent bars/icons).
-- [ ] Custom empty-state illustration from the time-arc motif (favorites/search).
-- [ ] Onboarding micro-animation: time-arc draw-in as the brand moment.
+- [x] Feed depth-stack transition on the vertical PageView (`depthTransform`).
+- [ ] Wire time-arc to the real time of day — **deliberately not done**: the arc
+      encodes the *tip's* moment by design; user opted to keep that semantic.
+- [x] Detail hero parallax (`heroParallax`, lag + pull-down zoom; editorial
+      title-below kept, no scrim per decision).
+- [x] Deeper category-color in detail — tint accent bar on section headers.
+- [x] Custom empty-state illustration — time-arc motif framing the emoji.
+- [x] Onboarding micro-animation — time-arc draw-in entrance.
 
 Feature:
-- [ ] **Streak calendar + milestones** (7/30/100 days) — highest retention ROI;
-      service already exists, only a richer surface is missing.
-- [ ] **"Today's card" welcome hero** on launch using `daily_tip_service`.
-- [ ] User collections/lists on top of favorites (offline, Hive).
-- [ ] Multiple reminder times + quiet hours.
+- [x] **Streak calendar + milestones** (`features/streak/`, 90-day grid + 3/7/30/100
+      badges + one-time celebration).
+- [x] **"Today's card" hero** — daily tip pinned first with a "Today's Card" badge
+      (`pinFirst`).
+- [x] Richer haptics on favorite toggle + streak milestone.
+- [ ] User collections/lists on top of favorites (offline, Hive). *(not started —
+      needs UX decisions)*
+- [ ] Multiple reminder times + quiet hours. *(not started — product/UX decisions on
+      defaults)*
 - [ ] Search history / popular tags.
-- [ ] "Seen" flag on feed cards to dim already-viewed tips (Hive).
-- [ ] Finish **iOS widget** (Xcode target — see Open items) for platform parity.
-- [ ] Story (9:16) + square (1:1) share formats beyond the 4:5 PNG.
-- [ ] Richer haptics on favorite / streak milestone.
-- [ ] Content: adult/partner communication; grow beyond 88 cards.
+- [ ] "Seen" flag to dim viewed tips — **low value** for a single-card PageView feed;
+      parked.
+- [ ] Finish **iOS widget** (Xcode target — see Open items). *Manual Xcode step; can't
+      be done/verified headlessly here.*
+- [ ] Story (9:16) + square (1:1) share formats — **needs visual verification** of the
+      rendered PNG layouts; deferred to a session where output can be eyeballed.
+- [ ] Content: adult/partner communication; grow beyond 88 cards. *(content authoring)*
 
-Suggested order: streak calendar+milestones → "today's card" hero → feed parallax +
-live time-arc → finish iOS widget.
+Done this round (uncommitted-to-remote unless pushed): streak calendar, today's card,
+feed depth transition, detail hero parallax, section accent bars, time-arc empty
+state, onboarding arc draw-in, richer haptics.
 
 ## Memory
 
