@@ -36,12 +36,26 @@ class DetailScreen extends ConsumerWidget {
   }
 }
 
-class _DetailBody extends StatelessWidget {
+class _DetailBody extends StatefulWidget {
   const _DetailBody({required this.tip});
   final Tip tip;
 
   @override
+  State<_DetailBody> createState() => _DetailBodyState();
+}
+
+class _DetailBodyState extends State<_DetailBody> {
+  final _scroll = ScrollController();
+
+  @override
+  void dispose() {
+    _scroll.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
+    final tip = widget.tip;
     final lang = Localizations.localeOf(context).languageCode;
     final theme = Theme.of(context);
     final category = categoryById(tip.category);
@@ -54,6 +68,7 @@ class _DetailBody extends StatelessWidget {
     );
 
     return CustomScrollView(
+      controller: _scroll,
       slivers: [
         // ── Sticky app bar ──────────────────────────────────────────────
         SliverAppBar(
@@ -79,22 +94,12 @@ class _DetailBody extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // ── Hero image ─────────────────────────────────────────
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(20),
-                    child: AspectRatio(
-                      aspectRatio: 1.4,
-                      child: Image.asset(
-                        'assets/images/cards/${tip.id}.webp',
-                        fit: BoxFit.cover,
-                        gaplessPlayback: true,
-                        errorBuilder: (context, error, stack) => _HeroFallback(
-                          tip: tip,
-                          tint: tint,
-                          isDark: isDark,
-                        ),
-                      ),
-                    ),
+                  // ── Hero image (parallax) ──────────────────────────────
+                  _ParallaxHero(
+                    tip: tip,
+                    tint: tint,
+                    isDark: isDark,
+                    controller: _scroll,
                   ),
                   const SizedBox(height: 20),
 
@@ -559,4 +564,91 @@ class _FunFactSection extends StatelessWidget {
       ),
     );
   }
+}
+
+/// The detail hero image with a scroll-driven parallax. Keeps the rounded card
+/// framing; the image lags on scroll-up and zooms gently on pull-down. Falls
+/// back to [_HeroFallback] when the asset is missing, and to a static image
+/// when the platform requests reduced motion.
+class _ParallaxHero extends StatelessWidget {
+  const _ParallaxHero({
+    required this.tip,
+    required this.tint,
+    required this.isDark,
+    required this.controller,
+  });
+
+  final Tip tip;
+  final Color tint;
+  final bool isDark;
+  final ScrollController controller;
+
+  static const _maxShift = 48.0;
+
+  @override
+  Widget build(BuildContext context) {
+    final image = Image.asset(
+      'assets/images/cards/${tip.id}.webp',
+      fit: BoxFit.cover,
+      gaplessPlayback: true,
+      errorBuilder: (context, error, stack) =>
+          _HeroFallback(tip: tip, tint: tint, isDark: isDark),
+    );
+
+    if (MediaQuery.of(context).disableAnimations) {
+      return ClipRRect(
+        borderRadius: BorderRadius.circular(20),
+        child: AspectRatio(aspectRatio: 1.4, child: image),
+      );
+    }
+
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final w = constraints.maxWidth;
+        final h = w / 1.4;
+        return ClipRRect(
+          borderRadius: BorderRadius.circular(20),
+          child: SizedBox(
+            width: w,
+            height: h,
+            child: AnimatedBuilder(
+              animation: controller,
+              builder: (context, _) {
+                final offset = controller.hasClients ? controller.offset : 0.0;
+                final p = heroParallax(offset, _maxShift);
+                return OverflowBox(
+                  minWidth: w,
+                  maxWidth: w,
+                  minHeight: h,
+                  maxHeight: h + _maxShift,
+                  alignment: Alignment.bottomCenter,
+                  child: Transform.translate(
+                    offset: Offset(0, p.dy),
+                    child: Transform.scale(
+                      scale: p.scale,
+                      child: SizedBox(
+                        width: w,
+                        height: h + _maxShift,
+                        child: image,
+                      ),
+                    ),
+                  ),
+                );
+              },
+            ),
+          ),
+        );
+      },
+    );
+  }
+}
+
+/// Translate (`dy`) and `scale` for the detail hero image given the scroll
+/// offset. Scrolling up (offset > 0) lags the image behind the frame; pulling
+/// down (offset < 0) zooms it in gently. Pure — unit-testable.
+({double dy, double scale}) heroParallax(double scrollOffset, double maxShift) {
+  if (scrollOffset >= 0) {
+    return (dy: (scrollOffset * 0.3).clamp(0.0, maxShift), scale: 1.0);
+  }
+  return (dy: 0.0, scale: (1.0 - scrollOffset * 0.0015).clamp(1.0, 1.12));
 }
