@@ -37,4 +37,27 @@ void main() {
     // Not all identical — the seed actually varies the selection.
     expect(ids.length, greaterThan(1));
   });
+
+  group('pickWithOffset', () {
+    final date = DateTime(2026, 6, 23);
+
+    test('offset 0 equals the daily pick', () {
+      expect(service.pickWithOffset(tips, date, 0).id, service.pick(tips, date).id);
+    });
+
+    test('offset advances one card', () {
+      final seed = int.parse('20260623');
+      expect(
+        service.pickWithOffset(tips, date, 1).id,
+        tips[(seed + 1) % tips.length].id,
+      );
+    });
+
+    test('offset wraps by catalog length', () {
+      expect(
+        service.pickWithOffset(tips, date, tips.length).id,
+        service.pick(tips, date).id,
+      );
+    });
+  });
 }

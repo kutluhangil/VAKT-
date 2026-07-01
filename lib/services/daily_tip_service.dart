@@ -9,10 +9,14 @@ import '../data/repositories/tip_repository.dart';
 class DailyTipService {
   const DailyTipService();
 
-  Tip pick(List<Tip> tips, DateTime date) {
+  Tip pick(List<Tip> tips, DateTime date) => pickWithOffset(tips, date, 0);
+
+  /// Like [pick] but rotated [offset] cards forward from today's pick. Used by
+  /// the home widget's "next tip" button to browse without opening the app.
+  Tip pickWithOffset(List<Tip> tips, DateTime date, int offset) {
     assert(tips.isNotEmpty, 'no tips to pick from');
     final seed = int.parse(DateFormat('yyyyMMdd').format(date));
-    return tips[seed % tips.length];
+    return tips[(seed + offset) % tips.length];
   }
 }
 
