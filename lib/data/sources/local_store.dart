@@ -13,6 +13,7 @@ class LocalStore {
 
   static const _settingsBox = 'settings';
   static const _favoritesBox = 'favorites';
+  static const _collectionsBox = 'collections';
 
   // Setting keys
   static const kLocale = 'locale'; // 'tr' | 'en' | absent (system)
@@ -31,9 +32,11 @@ class LocalStore {
   bool _memory = false;
   final Map<String, Object?> _memSettings = {};
   final Map<String, Object?> _memFavorites = {};
+  final Map<String, Object?> _memCollections = {};
 
   late Box _settings;
   late Box _favorites;
+  late Box _collections;
 
   Future<void> init() async {
     _memory = false;
@@ -53,17 +56,20 @@ class LocalStore {
     _memory = true;
     _memSettings.clear();
     _memFavorites.clear();
+    _memCollections.clear();
   }
 
   /// Test-only: wipe in-memory state between tests.
   void resetInMemory() {
     _memSettings.clear();
     _memFavorites.clear();
+    _memCollections.clear();
   }
 
   Future<void> _openBoxes() async {
     _settings = await Hive.openBox(_settingsBox);
     _favorites = await Hive.openBox(_favoritesBox);
+    _collections = await Hive.openBox(_collectionsBox);
   }
 
   /// Test-only: close all boxes so a later [initWithPath] starts fresh.
@@ -114,5 +120,32 @@ class LocalStore {
       return;
     }
     await _favorites.delete(id);
+  }
+
+  // Collections (id -> {name, createdAt, tipIds}).
+  Map<String, Map> collectionEntries() {
+    if (_memory) {
+      return _memCollections.map((k, v) => MapEntry(k, v as Map));
+    }
+    return {
+      for (final k in _collections.keys)
+        k.toString(): (_collections.get(k) as Map),
+    };
+  }
+
+  Future<void> putCollection(String id, Map data) async {
+    if (_memory) {
+      _memCollections[id] = data;
+      return;
+    }
+    await _collections.put(id, data);
+  }
+
+  Future<void> deleteCollectionData(String id) async {
+    if (_memory) {
+      _memCollections.remove(id);
+      return;
+    }
+    await _collections.delete(id);
   }
 }
