@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../app/theme/app_colors.dart';
 import '../../app/theme/app_typography.dart';
 import '../../data/models/category.dart';
 import '../../data/models/tip.dart';
 import '../../data/repositories/tip_repository.dart';
+import '../../l10n/app_localizations.dart';
+import '../../widgets/favorite_card.dart';
 import '../../widgets/pill_badge.dart';
 import '../../widgets/time_arc.dart';
 import '../../widgets/tip_actions.dart';
@@ -140,6 +143,9 @@ class _DetailBodyState extends State<_DetailBody> {
           SliverToBoxAdapter(
             child: _DetailSections(tip: tip, lang: lang, tint: tint),
           ),
+
+        // ── Related cards (same category) ─────────────────────────────
+        SliverToBoxAdapter(child: _RelatedSection(tip: tip)),
 
         // Bottom padding
         const SliverToBoxAdapter(child: SizedBox(height: 48)),
@@ -665,4 +671,44 @@ class _ParallaxHero extends StatelessWidget {
     return (dy: (scrollOffset * 0.3).clamp(0.0, maxShift), scale: 1.0);
   }
   return (dy: 0.0, scale: (1.0 - scrollOffset * 0.0015).clamp(1.0, 1.12));
+}
+
+/// "Related cards" — up to 4 other tips in the same category. Hidden when none.
+class _RelatedSection extends ConsumerWidget {
+  const _RelatedSection({required this.tip});
+
+  final Tip tip;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final repo = ref.watch(tipRepositoryProvider).asData?.value;
+    final related = repo == null
+        ? const <Tip>[]
+        : repo
+            .byCategory(tip.category)
+            .where((t) => t.id != tip.id)
+            .take(4)
+            .toList(growable: false);
+    if (related.isEmpty) return const SizedBox.shrink();
+
+    final l = AppLocalizations.of(context);
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(20, 8, 20, 0),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(l.relatedTitle, style: AppTypography.titleL),
+          const SizedBox(height: 16),
+          for (final t in related)
+            Padding(
+              padding: const EdgeInsets.only(bottom: 14),
+              child: FavoriteCard(
+                tip: t,
+                onTap: () => context.push('/tip/${t.id}'),
+              ),
+            ),
+        ],
+      ),
+    );
+  }
 }
