@@ -5,9 +5,11 @@ import 'package:go_router/go_router.dart';
 import '../../app/controllers/locale_controller.dart';
 import '../../app/theme/app_colors.dart';
 import '../../app/theme/app_typography.dart';
+import '../../data/models/category.dart';
 import '../../data/sources/local_store.dart';
 import '../../l10n/app_localizations.dart';
 import '../../widgets/time_arc.dart';
+import '../settings/interests_provider.dart';
 
 // Landing palette — always the "golden hour" ink theme, regardless of the
 // app's light/dark setting, so the first impression is consistent and premium.
@@ -151,6 +153,46 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                         chips: [l.landingChipComm1, l.landingChipComm2],
                       ),
 
+                      const SizedBox(height: 36),
+                      // Optional interest picker — biases the feed. Skippable.
+                      Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          l.settingsInterests,
+                          style: AppTypography.titleL.copyWith(color: _text),
+                        ),
+                      ),
+                      const SizedBox(height: 4),
+                      Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          l.settingsInterestsHint,
+                          style: AppTypography.bodyM.copyWith(color: _muted),
+                        ),
+                      ),
+                      const SizedBox(height: 12),
+                      Consumer(
+                        builder: (context, ref, _) {
+                          final lang =
+                              Localizations.localeOf(context).languageCode;
+                          final selected = ref.watch(interestsProvider);
+                          return Wrap(
+                            spacing: 8,
+                            runSpacing: 8,
+                            children: [
+                              for (final c in kCategories)
+                                FilterChip(
+                                  label: Text('${c.emoji} ${c.title.of(lang)}'),
+                                  selected: selected.contains(c.id),
+                                  showCheckmark: false,
+                                  onSelected: (_) => ref
+                                      .read(interestsProvider.notifier)
+                                      .toggle(c.id),
+                                ),
+                            ],
+                          );
+                        },
+                      ),
                       const SizedBox(height: 40),
                       // CTA
                       SizedBox(
