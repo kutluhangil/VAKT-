@@ -162,8 +162,9 @@ Feature:
 - [x] **"Today's card" hero** — daily tip pinned first with a "Today's Card" badge
       (`pinFirst`).
 - [x] Richer haptics on favorite toggle + streak milestone.
-- [ ] User collections/lists on top of favorites (offline, Hive). *(not started —
-      needs UX decisions)*
+- [x] **User collections/lists** — named Hive collections on the Favorites tab
+      (Favorites|Collections segment), collection detail screen, add-to-collection
+      sheet from the detail app bar (`features/collections/`).
 - [ ] Multiple reminder times + quiet hours. *(not started — product/UX decisions on
       defaults)*
 - [ ] Search history / popular tags.
