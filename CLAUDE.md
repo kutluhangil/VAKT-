@@ -178,10 +178,23 @@ Feature:
       headlessly (composition sound, no overflow; text/emoji show as tofu in
       flutter_test since bundled fonts don't load there — real app renders them).
 - [ ] Content: adult/partner communication; grow beyond 88 cards. *(content authoring)*
+- [x] Related cards on detail — shipped (`_RelatedSection`, same category, up
+      to 4, hidden when none).
+- [x] Watercolor hero in share card — shipped (webp full-bleed + dark scrim,
+      falls back to arc; all 3 formats). Sim-verified with real fonts+webp.
+- [x] Interest picker in onboarding — shipped (optional FilterChip section
+      before Start; reuses `settingsInterests` strings; biases the feed).
+- [x] Store screenshot generator (Android 1080×1920, TR+EN) — shipped
+      (`test/store_cards_gen_test.dart` → `store_assets/android/`, 10 stylized
+      brand cards). iOS store assets deferred (no dev account yet).
+- [x] Fix: interests bottom-sheet overflowed on short screens (scroll-controlled
+      + 80% cap).
 
 Done this round (uncommitted-to-remote unless pushed): streak calendar, today's card,
 feed depth transition, detail hero parallax, section accent bars, time-arc empty
-state, onboarding arc draw-in, richer haptics.
+state, onboarding arc draw-in, richer haptics, search history/popular chips,
+multi-format share, related cards, share hero+scrim, onboarding interests,
+store card generator, interests-sheet overflow fix, app icon refresh.
 
 ## Memory
 
